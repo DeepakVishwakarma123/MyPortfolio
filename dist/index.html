@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak Portfolio</title>
+    <link rel="icon" href="images/letter-d.png">
+    <!-- an css for layouts -->
+    <link rel="stylesheet" href="layout.css">
+    <!-- an css for  basic styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav section starts here! -->
+     <nav class="flex justify-between items-center p-6">
+      <!-- logo container -->
+      <div class="flex justify-center items-center">
+        <img src="images/vitamin-d.png" width="40px"><p id="logoname">eepak</p>
+      </div>
+      <!-- logo container ends here! -->
+       <!-- links section classes=> mobile-responsive,desktop-responsive-->
+      <ul id="links" class="flex flex-col justify-center items-center  gap-20  p-4 absolute top-[88px] left-[-1300px] h-screen transition-all duration-700  w-full bg-[#CBF1F5] 
+      lg:p-0 lg:static lg:flex-row lg:items-center lg:justify-center lg:w-auto lg:h-auto lg:bg-transparent lg:gap-28 lg:transition-none lg:duration-0">
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <!-- liks section ends here! -->  
+       <!-- hidden menu -->
+      <div class="block lg:hidden">
+        <img src="images/menu.png" width="25px" id="menubtn">
+      </div>
+      <!-- hidden menu ends here! -->
+     </nav>
+     <!-- nav section ends here! -->
+      <!-- external javascript -->
+     <script src="nav.js"></script>
+</body>
+</html>

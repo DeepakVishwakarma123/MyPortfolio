@@ -1,0 +1,25 @@
+/* nav bg color */
+nav{
+    background-color: #E3FDFD;
+}
+/* logo name style */
+#logoname{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:cursive;
+}
+/* links styling */
+a{
+    font-weight:500;
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+}
+/* links hover effect */
+a:hover{
+    color:#FD9B63;
+}
+/* class to be toggle on menu click*/
+.mobilemenu{
+    left: 0px;
+}
