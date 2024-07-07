@@ -1,6 +1,6 @@
 /* nav bg color */
 nav{
-    background-color: #E3FDFD;
+    background-color:white;
 }
 /* logo name style */
 #logoname{
@@ -17,9 +17,62 @@ a{
 }
 /* links hover effect */
 a:hover{
-    color:#FD9B63;
+    color:orange;
 }
 /* class to be toggle on menu click*/
 .mobilemenu{
     left: 0px;
+}
+
+/* hero section centred text basic stylilng x distributed paragraphs */
+#herotext{
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    color:#E90074;
+}
+
+
+#nametext{
+    font-weight: 600;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#lastnameText{
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+    color:#892CDC;
+}
+/* hero section centred text basic stylilng x distributed paragraphs */
+
+/* demo text basic styling */
+.demotext{
+    font-size: 20px;
+    font-weight: 500;
+    color:black
+}
+.demotext1{
+    font-size: 20px;
+    font-weight: 500;
+    color:#E90074;
+}
+.demotext2{
+    font-size: 20px;
+    font-weight: 500;
+    color:#892CDC;
+    
+}
+/* demo text basic styling */
+/* hero section button styling */
+#btn{
+    border: 1px solid;
+     transition: all;
+     transition-duration: 700ms;
+}
+/* hero button hover effect */
+#btn:hover{
+    background-color: black;
+}
+#btn:hover a{
+    color: white;
 }
