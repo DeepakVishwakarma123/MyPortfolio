@@ -10,7 +10,7 @@ nav{
 }
 /* links styling */
 a{
-    font-weight:500;
+    font-weight:550;
     color: black;
     transition: all;
     transition-duration: 500ms;
